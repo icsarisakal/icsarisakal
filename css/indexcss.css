@@ -1,0 +1,42 @@
+header {
+    text-align: center;
+    padding: 17px;
+    border: 1px solid;
+    font-weight: bold;
+}
+a , a:hover , a:visited , a:active{
+	text-decoration: none;
+	color: initial;
+}
+.user-request {
+    margin: 28px;
+}
+.user-request ul{
+	list-style: none;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+}
+.user-request li{
+	margin: -8px;
+	padding: 10px;
+	text-decoration: none;
+}
+.user-request li button {
+	padding: 23px;
+	min-width: 218px;
+}
+.user-request li button:hover {
+	cursor: pointer;
+}
+.user-request ul li input[type=submit]{
+	margin: -8px;
+	padding: 10px;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 23px;
+	min-width: 218px;
+	margin: auto;
+}

@@ -1,0 +1,274 @@
+/* Simple Reset ~ Thanks */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* BEGIN FORM STYLES */
+
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+
+
+body{
+  text-rendering: optimizeLegibility;
+  font-family: 'Droid Sans', helvetica, sans-serif;
+  background-color: #FCFCFC;
+  height: 100%;
+  margin: none;
+  padding: none;
+}
+
+h1 {
+  font-family: 'Droid Sans', helvetica, sans-serif;
+  font-size: 2rem;
+  color: #FFF;
+  text-align: center;
+  margin: 4% 0 4% 0;
+  padding: none;
+
+}
+
+.form-container {
+  max-width: 350px;
+  max-height: 100%;
+  background-color: #222222;
+  border-radius: 2%;
+  margin: 8% auto auto auto;
+  padding: 2% 1% 1% 1%;
+}
+
+form {
+  max-width: 100%;
+}
+
+input {
+  font-family: 'Droid Sans', helvetica , sans-serif;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  text-indent: 5px;
+  width: 90%;
+  height: 2rem;
+  background: #CDCDCD;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  margin: 4%;
+  padding: 1%;
+}
+
+input:focus {
+  background-color: #ECF0F1;
+  color: black;
+}
+
+input[type=submit] {
+  margin: none;
+  padding-bottom: 1%;
+  width: 92%;
+  height: 100%;
+  padding: 2%;
+  height: 2.5rem;
+  background: hsl(195, 73%, 58%);
+  color: #FFFFFF;
+  border-radius: 15px;
+  }
+
+input[type=submit]:hover {
+  background-color: #652C9F;
+  cursor: pointer;
+}
+
+.log-problem p {
+  margin: 2%;
+  color: #FFF;
+}
+
+.log-problem a {
+  text-decoration: none;
+  color: #0082A8;
+}
+
+.log-problem a:hover {
+  text-decoration: none;
+  color: #00A0A8;
+}
+
+.log-problem {
+  margin: auto;
+  text-align: center;
+  line-height: 1rem;
+  font-size: .8rem;
+  padding-top: 3%;
+}
+.signup input {
+  margin: 2%;
+  color: #FFF;
+  
+  border-radius: 15px;
+  padding: 14px;
+  font-weight: bold;
+  background-color: #652C9F;
+}
+
+.signup input {
+  text-decoration: none;
+}
+
+.signup input:hover {
+  text-decoration: none;
+  background: hsl(195, 73%, 58%);
+}
+
+.signup {
+  margin: auto;
+  text-align: center;
+  line-height: 1rem;
+  font-size: .8rem;
+  padding-top: 3%;
+}
+.form-container-signup {
+  max-width: 350px;
+  max-height: 100%;
+  border-radius: 2%;
+  margin: -1% auto auto auto;
+  padding: 1% 1% 1% 1%;
+}
+
+.signup-input{
+
+}
+
+/* Submit Button CSS animation */
+.animated{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}.animated.hinge{-webkit-animation-duration:2s;-moz-animation-duration:2s;-ms-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;}@-webkit-keyframes bounceIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(.3);
+  } 50% {
+    opacity: 0.33;
+    -webkit-transform: scale(1.05);
+  }
+  
+  70% {
+    -webkit-transform: scale(.9);
+    opacity: 0.66;
+  }
+  
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes bounceIn {
+ 0% {
+    opacity: 0;
+    transform: scale(.3);
+  }
+  
+  50% {
+    opacity: 0.33;
+    transform: scale(1.05);
+  }
+  
+  70% {
+    opacity: 0.66;
+    transform: scale(.9);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@-o-keyframes bounceIn {
+ 0% {
+    opacity: 0;
+    transform: scale(.3);
+  }
+  
+  50% {
+    opacity: 0.33;
+    transform: scale(1.05);
+  }
+  
+  70% {
+    opacity: 0.66;
+    transform: scale(.9);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(.3);
+  }
+  
+  50% {
+    opacity: 0.33;
+    transform: scale(1.05);
+  }
+  
+  70% {
+    opacity: 0.66;
+    transform: scale(.9);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.bounceIn {
+  -webkit-animation-name: bounceIn;
+  -moz-animation-name: bounceIn;
+  -o-animation-name: bounceIn;
+  animation-name: bounceIn;
+}
+
